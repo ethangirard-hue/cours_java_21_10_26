@@ -1,4 +1,4 @@
-package org.example;
+package org.example.calcul_pi;
 
 import java.util.Random;
 
@@ -8,7 +8,7 @@ public class PointTester{
         long testNumber=1_000_000_000L;
         long inSquare =0;
         for (long i=1; true;i++){
-            var randomPoint=Point.createUnitPoint();
+            var randomPoint= Point.createUnitPoint();
             if (randomPoint.distanceToOrigine()<=1.0){
                 inSquare++;
             }

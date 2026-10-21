@@ -1,4 +1,4 @@
-package org.example;
+package org.example.calcul_pi;
 import java.util.Random;
 public record Point(double x, double y){
     public static final Point ORIGIN = new Point(0,0);
